@@ -19,10 +19,10 @@ const config = [
   {
     name: "项目A-dev",
     ssh: {
-      host: "111.231.121.29",
+      host: "192.168.0.110",
       port: 22,
       username: "root",
-      password: "xksbHV6HBX9",
+      password: "",
       // privateKey: "E:/id_rsa", // ssh私钥(不使用此方法时请勿填写， 注释即可)
       passphrase: "", // ssh私钥对应解密密码(不存在设为''即可)
     },
@@ -36,10 +36,10 @@ const config = [
   // {
   //   name: "项目A-prod",
   //   ssh: {
-  //     host: "111.231.121.29",
+  //     host: "192.168.0.110",
   //     port: 22,
   //     username: "root",
-  //     password: "xksbHV6HBX9",
+  //     password: "",
   //     privateKey: "E:/id_rsa", // ssh私钥(不使用此方法时请勿填写， 注释即可)
   //     passphrase: "123456", // ssh私钥对应解密密码(不存在设为''即可)
   //   },
